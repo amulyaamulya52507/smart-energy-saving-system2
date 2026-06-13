@@ -2,25 +2,41 @@
 <html>
 <head>
     <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="control.html">Control</a>
+    <a href="reports.html">Reports</a>
+    <a href="notifications.html">Alerts</a>
+    <a href="settings.html">Settings</a>
+</nav>
+
+<section>
     <h1>Settings</h1>
 
-    <h3>Auto OFF Timer</h3>
-    <select>
-        <option>1 Minute</option>
-        <option>5 Minutes</option>
-        <option>10 Minutes</option>
-    </select>
+    <div class="card">
+        <h3>Auto OFF Timer</h3>
+        <p>1 Minute</p>
+        <p>5 Minutes</p>
+        <p>10 Minutes</p>
+    </div>
 
-    <h3>Notification Settings</h3>
-    <label>
-        <input type="checkbox" checked>
-        Enable Notifications
-    </label>
+    <div class="card">
+        <h3>Notification Settings</h3>
+        <p>Energy Alerts: ON</p>
+        <p>Room Alerts: ON</p>
+    </div>
 
-    <br><br>
+    <div class="card">
+        <h3>System Mode</h3>
+        <p>Auto Mode Enabled</p>
+    </div>
 
-    <a href="dashboard.html">Dashboard</a>
+</section>
+
 </body>
 </html>
